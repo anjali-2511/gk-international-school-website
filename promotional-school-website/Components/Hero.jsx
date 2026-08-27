@@ -4,11 +4,11 @@ function Hero() {
         <>
 
             <div className="card w-100 h-100" style={{ backgroundColor: "rgb(240, 235, 225)" }}>
-                <table border={1}>
+                <table>
                     <tr>
-                        <th className="border border-dark w-50 h-100">
+                        <th className=" w-50 h-100">
 
-                            <button className="btn btn-dark fw-bold border-0 rounded-5   pe-4 w-50 d-inline-flex align-items-center" style={{ backgroundColor: "rgba(171, 224, 181, 0.74)", color: "rgba(9, 88, 8, 0.91)" }}>
+                            <div className="ms-5"> <button className="btn btn-dark fw-bold border-0 rounded-5   pe-4 w-50 d-inline-flex align-items-center" style={{ backgroundColor: "rgba(171, 224, 181, 0.74)", color: "rgba(9, 88, 8, 0.91)" }}>
                                 Admissions Open for 2026-27
                             </button>
 
@@ -18,13 +18,14 @@ function Hero() {
                                 <li>Modern Learning</li>
                                 <li>Strong Values</li>
                             </h3>
+                            </div>
 
-                            <div className="">
-                                <button className="btn btn-dark border-dark fw-bold rounded-5 px-2 py-2 me-5 ms-5 mb-5 ms-auto p-2 d-inline-flex align-items-center" style={{ backgroundColor: "rgb(227, 162, 60)", color: "rgb(25, 31, 49)" }}>
+                            <div className="mt-5 ms-5">
+                                <button className="btn btn-dark border-dark fw-bold rounded-5 px-2 py-2 ms-5 me-5 mb-5 ms-auto p-2 d-inline-flex align-items-center" style={{ backgroundColor: "rgb(227, 162, 60)", color: "rgb(25, 31, 49)" }}>
                                      Apply for Admission
                                 </button>
 
-                                 <button className="btn btn-dark border-dark fw-bold rounded-5 px-2 py-2 me-5 mb-5 ms-auto p-2 d-inline-flex align-items-center" style={{ backgroundColor: "rgb(250, 246, 236)", color: "rgb(25, 31, 49)" }}>
+                                 <button className="btn btn-dark border-dark fw-bold rounded-5 px-2 py-2 ms-5 mb-5 ms-auto p-2 d-inline-flex align-items-center" style={{ backgroundColor: "rgb(250, 246, 236)", color: "rgb(25, 31, 49)" }}>
                                       Explore our School
                                 </button>
                             </div>
@@ -37,7 +38,7 @@ function Hero() {
                         </th>
 
 
-                        <th className="border border-dark w-50 h-100 m-5 p-5">
+                        <th className="w-50 h-100 m-5 p-5">
                             <div className="card border border-dark rounded-3 w-100 ms-5 ms-auto me-3 h-100 p-3" style={{ backgroundColor: "rgb(56, 65, 89)" }}>
 
                                 <button className="btn btn-dark border-dark fw-bold rounded-5 px-2 py-2 ps-5 mb-5 ms-auto w-50 d-inline-flex align-items-center" style={{ backgroundColor: "rgb(227, 162, 60)", color: "rgb(25, 31, 49)" }}>
