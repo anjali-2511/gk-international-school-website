@@ -1,5 +1,7 @@
 import Header from "../Components/Header";
 import Hero from "../Components/Hero";
+import SectionTitle from "../Components/SectionTitle";
+
 
 function Home(){
     return(
@@ -12,6 +14,7 @@ function Home(){
         
          
         <Hero/>
+        <SectionTitle/>
          
         </>
     )
