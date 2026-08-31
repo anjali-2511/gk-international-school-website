@@ -1,5 +1,6 @@
 import Header from "../Components/Header";
 import Hero from "../Components/Hero";
+import PromotionalSection from "../Components/PromotionalSection";
 import SectionTitle from "../Components/SectionTitle";
 
 
@@ -15,6 +16,7 @@ function Home(){
          
         <Hero/>
         <SectionTitle/>
+        <PromotionalSection/>
          
         </>
     )
