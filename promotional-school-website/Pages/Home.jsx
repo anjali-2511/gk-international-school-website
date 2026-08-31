@@ -2,6 +2,7 @@ import Header from "../Components/Header";
 import Hero from "../Components/Hero";
 import PromotionalSection from "../Components/PromotionalSection";
 import SectionTitle from "../Components/SectionTitle";
+import Why from "../Components/Why";
 
 
 function Home(){
@@ -17,6 +18,7 @@ function Home(){
         <Hero/>
         <SectionTitle/>
         <PromotionalSection/>
+        <Why/>
          
         </>
     )
