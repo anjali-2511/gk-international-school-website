@@ -5,6 +5,7 @@ import SectionTitle from "../Components/SectionTitle";
 import Why from "../Components/Why";
 import KeyHighlights from "../Components/KeyHighlights";
 import Features from "../Components/Features";
+import PrincipalMessage from "../Components/Principal'sMessage";
  
 
 
@@ -24,6 +25,7 @@ function Home(){
         <Why/>
         <KeyHighlights/>
         <Features/>
+        <PrincipalMessage/>
          
         </>
     )

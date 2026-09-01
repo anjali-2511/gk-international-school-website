@@ -10,7 +10,7 @@ function Header() {
                     <img src={logo} width="50" height="50" alt="" />
                 </a>
                 <div>
-                    <h3 style={{ color: "rgb(56, 65, 89)" }} >GoKrish Vidyalaya</h3>
+                    <h3 style={{ color: "rgb(56, 65, 89)" }} >GoglyaKrish International School</h3>
                     <p style={{ color: "rgb(196, 195, 192)" }}>LEARN TODAY LEAD TOMORROW</p>
                 </div>
 
@@ -22,23 +22,23 @@ function Header() {
 
                     <ul className="navbar-nav align-items-lg-center ">
 
-                        <li className="nav-item ms-5 me-5">
+                        <li className="nav-item ms-4 me-4">
                             <a className="nav-link" href="/" style={{ color: "rgb(56, 65, 89)" }}>Home</a>
                         </li>
 
-                        <li className="nav-item ms-5 me-5">
+                        <li className="nav-item ms-4 me-4">
                             <a className="nav-link" href="/" style={{ color: "rgb(56, 65, 89)" }}>About</a>
                         </li>
 
-                        <li className="nav-item ms-5 me-5">
+                        <li className="nav-item ms-4 me-4">
                             <a className="nav-link" href="/" style={{ color: "rgb(56, 65, 89)" }}>Acadmics</a>
                         </li>
 
-                        <li className="nav-item ms-5 me-5">
+                        <li className="nav-item ms-4 me-4">
                             <a className="nav-link" href="/" style={{ color: "rgb(56, 65, 89)" }}> Facilities</a>
                         </li>
 
-                        <li className="nav-item ms-5 me-5">
+                        <li className="nav-item ms-4 me-4">
                             <a className="nav-link" href="/" style={{ color: "rgb(56, 65, 89)" }}>Admission</a>
                         </li>
                     </ul>
