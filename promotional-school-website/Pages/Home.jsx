@@ -4,6 +4,7 @@ import PromotionalSection from "../Components/PromotionalSection";
 import SectionTitle from "../Components/SectionTitle";
 import Why from "../Components/Why";
 import KeyHighlights from "../Components/KeyHighlights";
+import Features from "../Components/Features";
  
 
 
@@ -22,6 +23,7 @@ function Home(){
         <PromotionalSection/>
         <Why/>
         <KeyHighlights/>
+        <Features/>
          
         </>
     )
