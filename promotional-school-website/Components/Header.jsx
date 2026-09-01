@@ -11,7 +11,7 @@ function Header() {
                 </a>
                 <div>
                     <h3 style={{ color: "rgb(56, 65, 89)" }} >GoglyaKrish International School</h3>
-                    <p style={{ color: "rgb(196, 195, 192)" }}>LEARN TODAY LEAD TOMORROW</p>
+                    <p style={{ color: "rgb(196, 195, 192)" }}>LEARN TODAY |  LEAD TOMORROW</p>
                 </div>
 
                 <button style={{ BackgroundColor: "rgb(56, 65, 89)" }} className="navbar-toggler m-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
