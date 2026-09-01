@@ -8,6 +8,7 @@ import Features from "../Components/Features";
 import PrincipalMessage from "../Components/Principal'sMessage";
 import StudentTestimonials from "../Components/StudentTestimonials";
 import CallToAction from "../Components/CallToAction";
+import Footer from "../Components/Footer";
  
 
 
@@ -30,6 +31,7 @@ function Home(){
         <PrincipalMessage/>
         <StudentTestimonials/>
         <CallToAction/>
+        <Footer/>
          
         </>
     )
