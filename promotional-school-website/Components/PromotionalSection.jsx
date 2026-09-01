@@ -1,7 +1,7 @@
 function PromotionalSection() {
     return (
         <>
-            <div className="w-100 h-100 " style={{ backgroundColor: "rgb(13, 24, 73)" }}>
+            <div className="w-100 h-100 p-3" style={{ backgroundColor: "rgb(13, 24, 73)" }}>
                 <table>
                     <tr>
                         <th className="w-75 h-100 m-5 p-3 ps-5 pe-5">

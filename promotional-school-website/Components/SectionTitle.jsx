@@ -1,7 +1,7 @@
 function SectionTitle() {
     return (
         <>
-            <div className="w-100 h-100 " style={{ backgroundColor: "rgb(252, 251, 248)" }}>
+            <div className="w-100 h-100 p-3" style={{ backgroundColor: "rgb(252, 251, 248)" }}>
                 <table>
                     <tr>
                         <th className="w-50 h-100 m-5 p-3 ps-5 pe-5">

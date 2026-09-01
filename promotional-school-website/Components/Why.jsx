@@ -9,7 +9,7 @@ function Why() {
                 <p>A well-rounded environment built on strong teaching, safety, and genuine care for every student's growth.</p>
             </div >
 
-            <div id="carouselExample" className="carousel slide text-center" style={{ backgroundColor: "rgb(247, 238, 220)" }}>
+            <div id="carouselExample" className="carousel slide text-center p-3" style={{ backgroundColor: "rgb(247, 238, 220)" }}>
                 <div className=" carousel-inner">
                     <div className="carousel-item active m-3">
                         <div className=" w-25 h-50 border border-primary shadow-lg rounded-5 p-4 ">
