@@ -1,5 +1,5 @@
 .gradient-icon {
-  font-size: 5rem; /* increase size as needed */
+  font-size: 10rem; 
   background: linear-gradient(45deg, rgb(95, 104, 129),rgb(93, 112, 93), rgb(227, 162, 60));
   -webkit-background-clip: text;
   background-clip: text;
