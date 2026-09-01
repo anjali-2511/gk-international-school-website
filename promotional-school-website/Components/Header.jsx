@@ -42,16 +42,13 @@ function Header() {
                             <a className="nav-link" href="/" style={{ color: "rgb(56, 65, 89)" }}>Admission</a>
                         </li>
                     </ul>
-
-                    <div className="nav-item ms-auto">
+                </div>
+                 <div className="ms-auto">
                         <button className="btn btn-dark border-white px-2 py-2 rounded-5 d-inline-flex align-items-center" style={{ backgroundColor: "rgb(56, 65, 89)" }}>
                             Apply Now <i className="fa-solid fa-square-up-right" ></i>
                         </button>
                     </div>
 
-
-
-                </div>
             </nav>
         </>
     )
