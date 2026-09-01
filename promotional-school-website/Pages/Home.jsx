@@ -7,6 +7,7 @@ import KeyHighlights from "../Components/KeyHighlights";
 import Features from "../Components/Features";
 import PrincipalMessage from "../Components/Principal'sMessage";
 import StudentTestimonials from "../Components/StudentTestimonials";
+import CallToAction from "../Components/CallToAction";
  
 
 
@@ -28,6 +29,7 @@ function Home(){
         <Features/>
         <PrincipalMessage/>
         <StudentTestimonials/>
+        <CallToAction/>
          
         </>
     )
