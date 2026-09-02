@@ -6,6 +6,12 @@ function App() {
   return(
     <>
     <Home/>
+    
+     
+     
+     
+    
+    
     <About/>
     </>
   )
