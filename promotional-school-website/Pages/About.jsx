@@ -6,6 +6,7 @@ import PrincipalMessage from "../Components/Principal'sMessage";
 import WhyOurSchool from "../Components/WhyOurSchool";
 import Achievements from "../Components/Achievements";
 import Footer from "../Components/Footer";
+import TimeLine from "../Components/TimeLine";
 
 function About(){
     return(
@@ -17,6 +18,7 @@ function About(){
         <PrincipalMessage/>
         <WhyOurSchool/>
         <Achievements/>
+        <TimeLine/>
         {/* <Footer/> */}
         </>
     )

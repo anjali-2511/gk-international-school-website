@@ -1,10 +1,10 @@
 import logo from "../public/logo.png";
 import './header.css';
 import { Link } from "react-router-dom";
- 
+
 
 function Header() {
-     
+
     return (
         <>
             <nav className="navbar fixed-top navbar-expand-lg navbar-dark w-100 p-2" style={{ backgroundColor: "rgb(249, 244, 234)" }}>
@@ -34,23 +34,25 @@ function Header() {
                         </li>
 
                         <li className="nav-item ms-4 me-4">
-                             <Link className="nav-link" style={{ color: "rgb(56, 65, 89)" }} to="/academics">Academics</Link>
+                            <Link className="nav-link" style={{ color: "rgb(56, 65, 89)" }} to="/academics">Academics</Link>
                         </li>
 
                         <li className="nav-item ms-4 me-4">
-                             <Link className="nav-link" style={{ color: "rgb(56, 65, 89)" }} to="/facilities">Facilities</Link>
+                            <Link className="nav-link" style={{ color: "rgb(56, 65, 89)" }} to="/facilities">Facilities</Link>
                         </li>
 
                         <li className="nav-item ms-4 me-4">
                             <Link className="nav-link" style={{ color: "rgb(56, 65, 89)" }} to="/admission">Admission</Link>
                         </li>
                     </ul>
-                </div>
-                 <div className="ms-auto">
+
+                    <div className="ms-auto">
                         <button className="btn btn-dark border-white px-2 py-2 rounded-5 d-inline-flex align-items-center" style={{ backgroundColor: "rgb(56, 65, 89)" }}>
                             Apply Now <i className="fa-solid fa-square-up-right" ></i>
                         </button>
                     </div>
+                </div>
+
 
             </nav>
         </>
