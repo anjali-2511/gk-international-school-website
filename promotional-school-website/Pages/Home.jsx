@@ -2,7 +2,7 @@ import Header from "../Components/Header";
 import Hero from "../Components/Hero";
 import PromotionalSection from "../Components/PromotionalSection";
 import SectionTitle from "../Components/SectionTitle";
-import Why from "../Components/Why";
+import Why from "../Components/WhyChoose";
 import KeyHighlights from "../Components/KeyHighlights";
 import Features from "../Components/Features";
 import PrincipalMessage from "../Components/Principal'sMessage";
