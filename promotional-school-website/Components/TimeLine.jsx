@@ -6,6 +6,7 @@ function TimeLine() {
         { year: "2019", title: "Streak of 100% Board Results Begins", text: "Consistent top-tier academic outcomes year after year." },
         { year: "2024", title: "Recognised Among Top 10 CBSE Schools", text: "City-wide ranking recognition for academics and infrastructure." },
     ];
+    
     return (
         <>
             <div className="text-center p-5" style={{ backgroundColor: "rgb(255, 255, 255)" }}>
