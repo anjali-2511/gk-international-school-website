@@ -1,14 +1,14 @@
-import Header from "../Components/Header";
-import Hero from "../Components/Hero";
-import PromotionalSection from "../Components/PromotionalSection";
-import SectionTitle from "../Components/SectionTitle";
-import Why from "../Components/WhyChoose";
-import KeyHighlights from "../Components/KeyHighlights";
-import Features from "../Components/Features";
-import PrincipalMessage from "../Components/Principal'sMessage";
-import StudentTestimonials from "../Components/StudentTestimonials";
-import CallToAction from "../Components/CallToAction";
-import Footer from "../Components/Footer";
+import Header from "../Components/Header/Header";
+import Hero from "../Components/Home/Hero";
+import PromotionalSection from "../Components/Home/PromotionalSection";
+import SectionTitle from "../Components/Home/SectionTitle";
+import Why from "../Components/Home/WhyChoose";
+import KeyHighlights from "../Components/Home/KeyHighlights";
+import Features from "../Components/Home/Features";
+import PrincipalMessage from "../Components/Home/Principal'sMessage";
+import StudentTestimonials from "../Components/Home/StudentTestimonials";
+import CallToAction from "../Components/Home/CallToAction";
+import Footer from "../Components/Home/Footer";
  
 
 
