@@ -4,6 +4,7 @@ import Values from "../Components/Values";
 import VisionAndMission from "../Components/Vision&Mission";
 import PrincipalMessage from "../Components/Principal'sMessage";
 import WhyOurSchool from "../Components/WhyOurSchool";
+import Achievements from "../Components/Achievements";
 
 function About(){
     return(
@@ -14,6 +15,7 @@ function About(){
         <Values/>
         <PrincipalMessage/>
         <WhyOurSchool/>
+        <Achievements/>
         </>
     )
 };
