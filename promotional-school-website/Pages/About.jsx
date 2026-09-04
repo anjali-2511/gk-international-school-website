@@ -1,5 +1,6 @@
 import AboutSchool from "../Components/AboutSchool";
 import PageBanner from "../Components/PageBanner";
+import Values from "../Components/Values";
 import VisionAndMission from "../Components/Vision&Mission";
 
 function About(){
@@ -8,6 +9,7 @@ function About(){
         <PageBanner/>
         <AboutSchool/>
         <VisionAndMission/>
+        <Values/>
         </>
     )
 };
