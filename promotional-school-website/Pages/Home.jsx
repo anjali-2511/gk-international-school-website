@@ -16,8 +16,6 @@ function Home(){
     return(
         <>
          
-        
-         
         <Hero/>
         <SectionTitle/>
         <PromotionalSection/>
