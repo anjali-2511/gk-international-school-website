@@ -7,8 +7,6 @@ function WhyOurSchool() {
 
     return (
         <>
-
-
             <div className="text-center p-5" style={{ backgroundColor: "rgb(247, 238, 220)" }}>
                 <button className="btn btn-dark fw-bolder border-0 rounded-4 pe-4 mb-2 d-inline-flex align-items-center" style={{ color: "rgb(231, 159, 43)", backgroundColor: "rgb(243, 226, 198)" }}>
                     Beyond the Classroom

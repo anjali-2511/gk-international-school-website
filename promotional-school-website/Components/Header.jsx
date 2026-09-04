@@ -1,7 +1,10 @@
 import logo from "../public/logo.png";
-import './header.css'
+import './header.css';
+import { Link } from "react-router-dom";
+ 
 
 function Header() {
+     
     return (
         <>
             <nav className="navbar fixed-top navbar-expand-lg navbar-dark w-100 p-2" style={{ backgroundColor: "rgb(249, 244, 234)" }}>
@@ -23,23 +26,23 @@ function Header() {
                     <ul className="navbar-nav align-items-lg-center ">
 
                         <li className="nav-item ms-4 me-4">
-                            <a className="nav-link" href="/" style={{ color: "rgb(56, 65, 89)" }}>Home</a>
+                            <Link className="nav-link active" style={{ color: "rgb(56, 65, 89)" }} to="/">Home</Link>
                         </li>
 
                         <li className="nav-item ms-4 me-4">
-                            <a className="nav-link" href="/" style={{ color: "rgb(56, 65, 89)" }}>About</a>
+                            <Link className="nav-link" style={{ color: "rgb(56, 65, 89)" }} to="/about">About</Link>
                         </li>
 
                         <li className="nav-item ms-4 me-4">
-                            <a className="nav-link" href="/" style={{ color: "rgb(56, 65, 89)" }}>Acadmics</a>
+                             <Link className="nav-link" style={{ color: "rgb(56, 65, 89)" }} to="/academics">Academics</Link>
                         </li>
 
                         <li className="nav-item ms-4 me-4">
-                            <a className="nav-link" href="/" style={{ color: "rgb(56, 65, 89)" }}> Facilities</a>
+                             <Link className="nav-link" style={{ color: "rgb(56, 65, 89)" }} to="/facilities">Facilities</Link>
                         </li>
 
                         <li className="nav-item ms-4 me-4">
-                            <a className="nav-link" href="/" style={{ color: "rgb(56, 65, 89)" }}>Admission</a>
+                            <Link className="nav-link" style={{ color: "rgb(56, 65, 89)" }} to="/admission">Admission</Link>
                         </li>
                     </ul>
                 </div>

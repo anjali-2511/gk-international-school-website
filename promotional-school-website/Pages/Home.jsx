@@ -15,11 +15,7 @@ import Footer from "../Components/Footer";
 function Home(){
     return(
         <>
-        <Header/>
-        <br />
-        <br />
-        <br />
-        <br />
+         
         
          
         <Hero/>

@@ -2,7 +2,7 @@ function Footer() {
     return (
         <>
 
-            <div className="pt-1 px-2 py-2 pe-3 ps-3" style={{ backgroundColor: "rgb(24, 37, 94)" }}>
+            <div className="pt-1 px-2 py-2 pe-3 ps-3 fixed-bottom" style={{ backgroundColor: "rgb(24, 37, 94)" }}>
                 <div className="d-flex justify-content-between flex-wrap ps-5 pe-5 pt-1 pb-2">
 
 
