@@ -1,8 +1,12 @@
-import science from "../public/science.png";
-import sports from "../public/sports.png";
-import library from "../public/library.png";
-import arts from "../public/arts.png";
+// import science from "../public/science.png";
+// import sports from "../public/sports.png";
+// import library from "../public/library.png";
+// import arts from "../public/arts.png";
 function Features() {
+    const science = "/science.png";
+    const sports = "/sports.png";
+    const library = "/library.png";
+    const arts = "/arts.png";
     return (
         <>
             <div className="text-center p-3" style={{ backgroundColor: "rgb(253, 252, 251)" }}>

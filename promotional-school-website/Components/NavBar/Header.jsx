@@ -1,9 +1,9 @@
-import logo from "../public/logo.png";
+// import logo from "../public/logo.png";
 import './header.css';
 import { Link } from "react-router-dom";
 
 function Header() {
-
+    const logo = "/logo.png";
     return (
         <>
             <nav className="navbar fixed-top navbar-expand-lg navbar-dark w-100 p-2" style={{ backgroundColor: "rgb(249, 244, 234)" }}>

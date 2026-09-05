@@ -3,7 +3,7 @@ import Home from "../Pages/Home";
 import Academics from "../Pages/Academics";
 // import Facilities from "../Pages/Facilities";
 // import Admission from "../Pages/Admission";
-import Header from "../Components/Header/Header";
+import Header from "../Components/NavBar/Header";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
  
 

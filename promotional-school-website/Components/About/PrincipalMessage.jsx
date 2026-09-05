@@ -1,5 +1,6 @@
-import profile from "../public/profile.png";
+// import profile from "../public/profile.png";
 function PrincipalMessage() {
+    const profile = "/profile.png";
     return (
         <>
             

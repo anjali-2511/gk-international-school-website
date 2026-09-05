@@ -1,5 +1,6 @@
-import profile from "../public/profile.png";
-function PrincipalMessage() {
+// import profile from "../public/profile.png";
+function PrincipalsMessage() {
+    const profile = "/profile.png";
     return (
         <>
             
@@ -32,4 +33,4 @@ function PrincipalMessage() {
         </>
     )
 };
-export default PrincipalMessage;
+export default PrincipalsMessage;
