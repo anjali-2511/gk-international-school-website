@@ -1,4 +1,4 @@
-import Programs from "../Components/Academics/Programs";
+import Programs from "../Components/Academics/Program";
 
 function Academics() {
     return(
