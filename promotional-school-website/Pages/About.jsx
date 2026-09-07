@@ -7,6 +7,7 @@ import WhyOurSchool from "../Components/About/WhyOurSchool";
 import Achievements from "../Components/About/Achievements";
 import TimeLine from "../Components/About/TimeLine";
 import Footer from "../Components/Footer/Footer";
+import CTA from "../Components/About/CTA";
 
 function About(){
     return(
@@ -19,6 +20,7 @@ function About(){
         <WhyOurSchool/>
         <Achievements/>
         <TimeLine/>
+        <CTA/>
         <Footer/>
         </>
     )
