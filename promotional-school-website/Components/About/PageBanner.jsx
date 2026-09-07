@@ -1,10 +1,10 @@
 function PageBanner() {
     return (
         <>
-            <div className="text-center p-5" style={{ backgroundColor: "rgba(218, 151, 8, 0.93)" }}>
-                <button className="btn btn-dark fw-bolder border-0 rounded-4 p-2  d-inline-flex align-items-center" style={{ color: "rgba(8, 59, 7, 0.91)", backgroundColor: "rgba(168, 219, 167, 0.91)" }}>
-                   About Us
-                </button>
+            <div className="text-center p-5" style={{ backgroundColor: "rgb(238, 226, 201)" }}>
+               <p className="fw-bold mb-2 d-inline-block px-3 py-1 rounded-4" style={{ color: "rgb(58, 121, 88)", backgroundColor: "rgb(228, 240, 230)", fontSize: "0.85rem" }}>
+                     About Us
+                </p>
                 <h2 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }}>
                     Twenty-Five Years of Nurturing Curious, Confident Minds
                 </h2>
