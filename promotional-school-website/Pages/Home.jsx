@@ -7,7 +7,7 @@ import Features from "../Components/Home/Features";
 import PrincipalsMessage from "../Components/Home/PrincipalsMessage";
 import StudentTestimonials from "../Components/Home/StudentTestimonials";
 import CallToAction from "../Components/Home/CallToAction";
-import Footer from "../Components/Home/Footer";
+import Footer from "../Components/Footer/Footer";
  
 
 

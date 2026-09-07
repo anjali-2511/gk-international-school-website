@@ -6,7 +6,7 @@ import PrincipalMessage from "../Components/About/PrincipalMessage";
 import WhyOurSchool from "../Components/About/WhyOurSchool";
 import Achievements from "../Components/About/Achievements";
 import TimeLine from "../Components/About/TimeLine";
-import Footer from "../Components/About/Footer";
+import Footer from "../Components/Footer/Footer";
 
 function About(){
     return(
