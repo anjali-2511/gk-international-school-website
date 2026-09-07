@@ -1,9 +1,11 @@
-import FacilitiesPage from "../Components/Facilities/FacilitiesPage";
+import FacilitiePage from "../Components/Facilities/FacilitiePage";
+import FacilitiesSection from "../Components/Facilities/FacilitiesSection";
 
 function Facilities() {
     return(
         <>
-        <FacilitiesPage/>
+        <FacilitiePage/>
+        <FacilitiesSection/>
         </>
     )
 };

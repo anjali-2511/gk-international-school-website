@@ -1,7 +1,4 @@
-// import science from "../public/science.png";
-// import sports from "../public/sports.png";
-// import library from "../public/library.png";
-// import arts from "../public/arts.png";
+ 
 function Features() {
     const science = "/science.png";
     const sports = "/sports.png";
