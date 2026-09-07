@@ -11,7 +11,7 @@ function Activities() {
     ];
     return (
         <>
-            <div className="text-center p-5" style={{ backgroundColor: "rgb(243, 219, 167)" }}>
+            <div className="text-center p-5" style={{ backgroundColor: "rgb(187, 172, 141)" }}>
                 <button className="btn btn-dark fw-bolder border-0 rounded-4 pe-4 mb-2 d-inline-flex align-items-center" style={{ color: "rgb(58, 121, 88)", backgroundColor: "rgb(228, 240, 230)" }}>
                     Beyond the Syllabus
                 </button>
