@@ -32,14 +32,20 @@ function Contact() {
                         ))}
                     </div>
 
-                     
                     <div
-                        className="d-flex align-items-center justify-content-center rounded-4"
+                        className="overflow-hidden rounded-4"
                         style={{ width: "320px", height: "260px", backgroundColor: "rgb(247, 238, 220)" }}
                     >
-                        <p className="fw-bold mb-0" style={{ color: "rgb(20, 30, 60)" }}>
-                            <i className="fa-solid fa-location-dot me-1"></i> Google Map Placeholder
-                        </p>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30338.29985692761!2d74.57966665252448!3d18.104510747539127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc39f4618a3cbad%3A0x491b4a18218f1bf3!2sDorlewadi%2C%20Maharashtra%20413102!5e0!3m2!1sen!2sin!4v1788765789645!5m2!1sen!2sin"
+                            width="100%"
+                            height="100%"
+                            style={{ border: 0 }}
+                            allowFullScreen=""
+                            loading="lazy"
+                            referrerPolicy="strict-origin-when-cross-origin"
+                            title="School Location Map"
+                        ></iframe>
                     </div>
 
                 </div>
