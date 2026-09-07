@@ -1,5 +1,6 @@
 import AdmissionPage from "../Components/Admissions/AdmissionPage";
 import AdmissionProcess from "../Components/Admissions/AdmissionProcess";
+import Contact from "../Components/Admissions/Contact";
 import FeeEnquiryCTA from "../Components/Admissions/FeeEnquiryCTA";
 import Requirements from "../Components/Admissions/Requirements";
 
@@ -10,6 +11,7 @@ function Admissions(){
         <AdmissionProcess/>
         <Requirements/>
         <FeeEnquiryCTA/>
+        <Contact/>
         </>
     )
 };export default Admissions;

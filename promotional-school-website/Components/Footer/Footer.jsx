@@ -54,7 +54,7 @@ function Footer() {
                         <h6 className="fw-bold" style={{ color: "rgb(231, 159, 43)", letterSpacing: "1px" }}>CONTACT</h6>
 
                         <ul className="list-unstyled pt-2">
-                            <li className="pb-1" style={{ color: "rgb(192, 191, 188)" }}> Dorlewadi Baramati Pune 413102</li>
+                            <li className="pb-1" style={{ color: "rgb(192, 191, 188)" }}> Dorlewadi Baramati Pune 413102, Maharashtra</li>
 
                             <li className="pb-1" style={{ color: "rgb(192, 191, 188)" }}>admissions@goglyakrish.edu</li>
 
