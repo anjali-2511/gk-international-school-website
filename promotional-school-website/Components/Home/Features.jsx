@@ -10,7 +10,9 @@ function Features() {
                 <button className="btn btn-dark fw-bolder border-0 rounded-4 pe-4  d-inline-flex align-items-center" style={{ color: "rgba(8, 59, 7, 0.91)", backgroundColor: "rgba(168, 219, 167, 0.91)" }}>
                     Around Campus
                 </button>
-                <h3 className="fw-bold p-1">Featured Facilities</h3>
+                <h3 className="fw-bold p-1">Featured Facilities
+                    <hr style={{ borderColor: "rgb(10, 10, 10)", opacity: 0.9, width: "240px", margin: "7px auto" }} />
+                </h3>
                 <p className=""> Spaces designed to support learning, creativity, and play in equal measure.</p>
             </div >
 

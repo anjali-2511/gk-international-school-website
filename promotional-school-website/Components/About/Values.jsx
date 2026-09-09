@@ -13,7 +13,9 @@ function Values() {
                 <button className="btn btn-dark fw-bolder border-0 rounded-4 pe-4 mb-2 d-inline-flex align-items-center" style={{ color: "rgb(58, 121, 88)", backgroundColor: "rgb(228, 240, 230)" }}>
                     What We Stand For
                 </button>
-                <h3 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }}>Our Values</h3>
+                <h3 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }}>Our Values
+                    <hr style={{ borderColor: "rgb(10, 10, 10)", opacity: 0.9, width: "150px", margin: "7px auto" }} />
+                </h3>
                 <p className="pt-2 mx-auto" style={{ color: "rgb(110, 110, 115)", maxWidth: "480px" }}>
                     Five principles that shape our classrooms, our campus culture, and every decision we make.
                 </p>
@@ -23,7 +25,7 @@ function Values() {
                         <div
                             key={i}
                             className="text-center rounded-4 p-4"
-                            style={{ width: "200px", backgroundColor: "rgb(247, 238, 220)" }}
+                            style={{ width: "200px", backgroundColor: "rgb(227, 228, 240)" }}
                         >
                             <div
                                 className="d-flex align-items-center justify-content-center rounded-circle mx-auto mb-3"

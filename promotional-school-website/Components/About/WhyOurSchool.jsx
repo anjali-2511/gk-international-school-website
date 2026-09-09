@@ -7,18 +7,20 @@ function WhyOurSchool() {
 
     return (
         <>
-            <div className="text-center p-5" style={{ backgroundColor: "rgb(247, 238, 220)" }}>
+            <div className="text-center p-5" style={{ backgroundColor: "rgb(253, 253, 253)" }}>
                 <button className="btn btn-dark fw-bolder border-0 rounded-4 pe-4 mb-2 d-inline-flex align-items-center" style={{ color: "rgb(231, 159, 43)", backgroundColor: "rgb(243, 226, 198)" }}>
                     Beyond the Classroom
                 </button>
-                <h3 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }}>Why Our School?</h3>
+                <h3 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }}>Why Our School?
+                    <hr style={{ borderColor: "rgb(10, 10, 10)", opacity: 0.9, width: "240px", margin: "7px auto" }} />
+                </h3>
 
-                <div className="d-flex flex-wrap gap-4 justify-content-center pt-4">
+                <div className="d-flex flex-wrap gap-5 justify-content-center pt-4">
                     {cards.map((item, i) => (
                         <div
                             key={i}
-                            className="text-start rounded-4 p-4 shadow-sm bg-white"
-                            style={{ width: "230px" }}
+                            className="text-start border rounded-4 p-4 shadow-lg bg-white"
+                            style={{ width: "240px",}}
                         >
                             <div
                                 className="d-flex align-items-center justify-content-center rounded-3 mb-3"

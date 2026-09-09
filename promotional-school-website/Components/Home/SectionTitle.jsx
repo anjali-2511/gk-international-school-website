@@ -5,7 +5,7 @@ function SectionTitle() {
                 <table>
                     <tr>
                         <th className="w-50 h-100 m-5 p-3 ps-5 pe-5">
-                            <div className="rounded-4 w-75 ms-5  me-5 h-100 p-5" style={{ backgroundColor: "rgb(237, 237, 225)" }}>
+                            <div className="rounded-4 w-75 ms-5  shadow-lg me-5 h-100 p-5" style={{ backgroundColor: "rgba(221, 222, 243, 0.7)" }}>
 
 
                                 <br />

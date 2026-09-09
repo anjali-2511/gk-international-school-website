@@ -3,9 +3,8 @@ function PrincipalMessage() {
     const profile = "/profile.png";
     return (
         <>
-            
-
-            <div className="d-flex justify-content-center p-5" style={{ backgroundColor: "rgb(241, 234, 218)" }}>
+        
+            <div className="d-flex justify-content-center p-5" style={{ backgroundColor: "rgb(191, 192, 218)" }}>
                 <div className="card border-0 rounded-5 w-75 p-5 m-5 shadow-lg" style={{ backgroundColor: "rgb(255, 255, 255)" }}>
 
                     <table>

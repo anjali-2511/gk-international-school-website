@@ -6,15 +6,17 @@ function StudentTestimonials() {
                 <button className="btn btn-dark fw-bolder border-0 rounded-4 pe-4  d-inline-flex align-items-center" style={{ color: "rgb(231, 159, 43)", backgroundColor: "rgb(243, 226, 198)" }}>
                     Parent & Student Voices
                 </button>
-                <h4 className="fw-bold pt-2" style={{ color: "rgb(250, 250, 250)" }}>What Our Community Says</h4>
+                <h4 className="fw-bold pt-2" style={{ color: "rgb(250, 250, 250)" }}>What Our Community Says
+                    <hr style={{ borderColor: "rgb(255, 255, 255)", opacity: 0.9, width: "310px", margin: "7px auto" }} />
+                </h4>
 
             </div >
 
             <div className="pt-4 pb-5 p-5" style={{ backgroundColor: "rgb(5, 16, 65)" }}>
                 <table className="w-100 h-100 justify-content-center pt-5 pb-5">
                     <tr className="w-25 h-100">
-                        <th>
-                            <div className="border border-warning rounded-3 p-3 ms-5 shadow-lg" style={{ backgroundColor: "rgb(5, 16, 65)", width: "350px", height: "220px" }}>
+                        <th >
+                            <div className="border rounded-3 p-3 ms-5 shadow-lg" style={{ backgroundColor: "rgb(5, 16, 65)",width: "350px", height: "220px" }}>
 
                                 <div style={{ color: "rgb(231, 160, 46)" }}> <i class="fa-solid fa-star" ></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
                                 </div>
@@ -33,7 +35,7 @@ function StudentTestimonials() {
                         </th>
 
                         <th>
-                            <div className="border border-warning rounded-3 p-3 shadow-lg" style={{ backgroundColor: "rgb(5, 16, 65)", width: "350px", height: "220px" }}>
+                            <div className="border rounded-3 p-3 shadow-lg" style={{ backgroundColor: "rgb(5, 16, 65)", width: "350px", height: "220px" }}>
 
                                 <div style={{ color: "rgb(231, 160, 46)" }}> <i class="fa-solid fa-star" ></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
                                 </div>
@@ -52,7 +54,7 @@ function StudentTestimonials() {
                         </th>
 
                         <th>
-                            <div className="border border-warning rounded-3 p-3 shadow-lg" style={{ backgroundColor: "rgb(5, 16, 65)", width: "350px", height: "220px" }}>
+                            <div className="border rounded-3 p-3 shadow-lg" style={{ backgroundColor: "rgb(5, 16, 65)", width: "350px", height: "220px" }}>
 
                                 <div style={{ color: "rgb(231, 160, 46)" }}> <i class="fa-solid fa-star" ></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
                                 </div>

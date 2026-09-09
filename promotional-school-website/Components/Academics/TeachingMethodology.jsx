@@ -8,11 +8,13 @@ function TeachingMethodology() {
 
     return (
         <>
-            <div className="text-center p-5" style={{ backgroundColor: "rgb(250, 244, 231)" }}>
+            <div className="text-center p-5" style={{ backgroundColor: "rgb(208, 210, 245)" }}>
                 <button className="btn btn-dark fw-bolder border-0 rounded-4 pe-4 mb-2 d-inline-flex align-items-center" style={{ color: "rgb(58, 121, 88)", backgroundColor: "rgb(228, 240, 230)" }}>
                     How We Teach
                 </button>
-                <h3 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }}>Teaching Methodology</h3>
+                <h3 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }}>Teaching Methodology
+                    <hr style={{ borderColor: "rgb(10, 10, 10)", opacity: 0.9, width: "300px", margin: "7px auto" }} />
+                </h3>
 
                 <div id="teachingCarousel" className="carousel slide pt-4 " data-bs-ride="carousel" data-bs-interval="3000">
                     <div className="carousel-inner d-inline-flex align-items-center">
@@ -21,7 +23,7 @@ function TeachingMethodology() {
                                 <div className="d-flex justify-content-center">
                                     <div
                                         className="text-start rounded-4 p-4 shadow-sm bg-white"
-                                        style={{ width: "350px", minHeight: "180px" }}
+                                        style={{ width: "450px", minHeight: "180px" }}
                                     >
                                         <div
                                             className="d-flex align-items-center justify-content-center rounded-3 mb-3 mx-auto"

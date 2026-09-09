@@ -11,7 +11,9 @@ function AcademicsPrograms() {
                 <button className="btn btn-dark fw-bolder border-0 rounded-4 pe-4 mb-2 d-inline-flex align-items-center" style={{ color: "rgb(231, 159, 43)", backgroundColor: "rgb(243, 226, 198)" }}>
                     Curriculum
                 </button>
-                <h3 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }}>Academic Programs</h3>
+                <h3 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }}>Academic Programs
+                    <hr style={{ borderColor: "rgb(10, 10, 10)", opacity: 0.9, width: "270px", margin: "7px auto" }} />
+                </h3>
                 <p className="pt-2 mx-auto" style={{ color: "rgb(110, 110, 115)", maxWidth: "520px" }}>
                     Every stage builds on the last, moving students from guided discovery to independent, exam-ready mastery.
                 </p>
@@ -21,7 +23,7 @@ function AcademicsPrograms() {
                         <div
                             key={i}
                             className="text-start rounded-4 p-4 shadow-sm bg-white"
-                            style={{ width: "250px", borderTop: "3px solid rgb(231, 159, 43)" }}
+                            style={{ width: "250px", borderTop: "3px solid rgb(208, 210, 245)" }}
                         >
                             <p className="fw-bold mb-2" style={{ color: "rgb(231, 159, 43)", fontSize: "0.75rem", letterSpacing: "1px" }}>
                                 {item.tag}

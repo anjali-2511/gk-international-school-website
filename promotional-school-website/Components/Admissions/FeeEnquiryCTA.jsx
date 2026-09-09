@@ -4,6 +4,7 @@ function FeeEnquiryCTA() {
             <div className="text-center p-3" style={{ backgroundColor: "rgb(219, 145, 43)" }}>
                 <h3 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }}>
                     Fee Enquiry
+                    <hr style={{ borderColor: "rgb(10, 10, 10)", opacity: 0.9, width: "150px", margin: "7px auto" }} />
                 </h3>
                 <p className="pt-2" style={{ color: "rgb(60, 45, 20)" }}>
                     Get the fee structure for your child's grade, dent directly to you.

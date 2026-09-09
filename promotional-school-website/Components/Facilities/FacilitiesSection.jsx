@@ -26,7 +26,9 @@ function FacilitiesSection() {
                 <button className="btn btn-dark fw-bolder border-0 rounded-4 pe-4 mb-2 d-inline-flex align-items-center" style={{ color: "rgb(231, 159, 43)", backgroundColor: "rgb(243, 226, 198)" }}>
                     Our Campus
                 </button>
-                <h3 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }}>Facilities</h3>
+                <h3 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }}>Facilities
+                    <hr style={{ borderColor: "rgb(10, 10, 10)", opacity: 0.9, width: "120px", margin: "7px auto" }} />
+                </h3>
                 <p className="pt-2 mx-auto" style={{ color: "rgb(110, 110, 115)", maxWidth: "480px" }}>
                     Everything a student needs to learn, play, and stay safe all on one campus.
                 </p>

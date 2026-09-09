@@ -3,7 +3,7 @@ function Footer() {
         <>
 
             <div className="pt-1 px-2 py-2 pe-3 ps-3" style={{ backgroundColor: "rgb(24, 37, 94)" }}>
-                <div className="d-flex justify-content-between flex-wrap ps-5 pe-5 pt-1 pb-2">
+                <div className="d-flex justify-content-between flex-wrap ps-5 pe-5 pt-3 pb-2">
 
 
                     <div style={{ maxWidth: "280px" }}>
@@ -64,7 +64,7 @@ function Footer() {
 
                 </div>
 
-                <hr style={{ borderColor: "rgb(60, 70, 110)", opacity: 0.4 }} />
+                <hr style={{ borderColor: "rgb(82, 93, 136)", opacity: 0.4 }} />
 
                 <div className="d-flex justify-content-between flex-wrap pe-2 ps-2">
                     <p style={{ color: "rgb(152, 152, 156)" }}><i className="fa-regular fa-copyright"></i> 2026 Goglya Krish International School. All rights reserved.</p>

@@ -12,7 +12,7 @@ function AboutSchool(){
                             width: "400px",
                             height: "400px",
                             padding: "20px",
-                            background: "linear-gradient(135deg, rgb(228, 232, 220), rgb(247, 238, 220))"
+                            background: "linear-gradient(135deg, rgba(191, 192, 218, 0.76), rgb(247, 238, 220))"
                         }}
                     ></div>
 

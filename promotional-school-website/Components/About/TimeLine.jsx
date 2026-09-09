@@ -13,7 +13,9 @@ function TimeLine() {
                 <button className="btn btn-dark fw-bolder border-0 rounded-4 pe-4 mb-2 d-inline-flex align-items-center" style={{ color: "rgb(58, 121, 88)", backgroundColor: "rgb(228, 240, 230)" }}>
                     Our Journey
                 </button>
-                <h3 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }}>School Timeline</h3>
+                <h3 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }}>School Timeline
+                    <hr style={{ borderColor: "rgb(10, 10, 10)", opacity: 0.9, width: "220px", margin: "7px auto" }} />
+                </h3>
 
                 <div className="position-relative pt-5" style={{ maxWidth: "800px", margin: "0 auto" }}>
                     
@@ -27,7 +29,7 @@ function TimeLine() {
                         
                             <div className="w-50 pe-4 text-md-end text-start">
                                 {i % 2 === 0 ? (
-                                    <div className="d-inline-block text-start rounded-4 p-3 shadow-sm" style={{ backgroundColor: "rgb(247, 238, 220)", maxWidth: "320px" }}>
+                                    <div className="d-inline-block text-start rounded-4 p-3 shadow-sm" style={{ backgroundColor: "rgb(223, 223, 238)", maxWidth: "320px" }}>
                                         <h4 className="fw-bold mb-1" style={{ color: "rgb(231, 159, 43)" }}>{item.year}</h4>
                                         <h6 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }}>{item.title}</h6>
                                         <p className="mb-0" style={{ color: "rgb(110, 110, 115)", fontSize: "0.9rem" }}>{item.text}</p>
@@ -52,7 +54,7 @@ function TimeLine() {
                             
                             <div className="w-50 ps-4 text-start">
                                 {i % 2 !== 0 ? (
-                                    <div className="d-inline-block text-start rounded-4 p-3 shadow-sm" style={{ backgroundColor: "rgb(247, 238, 220)", maxWidth: "320px" }}>
+                                    <div className="d-inline-block text-start rounded-4 p-3 shadow-sm" style={{ backgroundColor: "rgb(223, 223, 238)", maxWidth: "320px" }}>
                                         <h4 className="fw-bold mb-1" style={{ color: "rgb(231, 159, 43)" }}>{item.year}</h4>
                                         <h6 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }}>{item.title}</h6>
                                         <p className="mb-0" style={{ color: "rgb(110, 110, 115)", fontSize: "0.9rem" }}>{item.text}</p>

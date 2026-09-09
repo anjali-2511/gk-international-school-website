@@ -1,21 +1,24 @@
 function Why() {
     return (
         <>
-            <div className="text-center p-3" style={{ backgroundColor: "rgb(247, 238, 220)" }}>
+            <div className="text-center p-3" style={{ backgroundColor: "rgb(191, 192, 218)" }}>
                 <button className="btn btn-dark fw-bolder border-0 rounded-4 pe-4  d-inline-flex align-items-center" style={{ color: "rgb(231, 159, 43)", backgroundColor: "rgb(243, 226, 198)" }}>
                     Our promises
+
                 </button>
-                <h3 className="fw-bold">Why Choose Our School?</h3>
+                <h3 className="fw-bold">Why Choose Our School?
+                    <hr style={{ borderColor: "rgb(10, 10, 10)", opacity: 0.9, width: "340px", margin: "7px auto" }} />
+                </h3>
                 <p>A well-rounded environment built on strong teaching, safety, and genuine care for every student's growth.</p>
             </div >
 
-            <div id="carouselExample" className="carousel slide text-center p-3" style={{ backgroundColor: "rgb(247, 238, 220)" }}>
+            <div id="carouselExample" className="carousel slide text-center p-3" style={{ backgroundColor: "rgb(191, 192, 218)" }}>
                 <div className=" carousel-inner">
                     <div className="carousel-item active m-3 ">
-                        <div className="d-flex justify-content-center">
-                            <div className=" w-50 h-50 border border-primary shadow-lg rounded-5 p-4">
+                        <div className="d-flex justify-content-center"  >
+                            <div className=" w-50 h-50 border border-dark shadow-lg rounded-5 p-4" style={{ backgroundColor: "rgb(212, 212, 236)" }}>
                                 <div className="d-inline-flex align-items-center rounded-3 mb-3 ps-2"
-                                style={{ width: "44px", height: "44px", backgroundColor: "rgb(219, 236, 222)", color: "rgb(18, 58, 25)"}}>
+                                    style={{ width: "44px", height: "44px", backgroundColor: "rgb(197, 230, 203)", color: "rgb(13, 66, 23)" }}>
                                     <i className="fa-solid fa-person"></i>
                                 </div>
                                 <h3>Expert Faculty</h3>
@@ -26,9 +29,9 @@ function Why() {
 
                     <div className="carousel-item m-3">
                         <div className="d-flex justify-content-center">
-                            <div className=" w-50 h-50 border border-primary shadow-lg rounded-5 p-4">
+                            <div className=" w-50 h-50 border border-primary shadow-lg rounded-5 p-4" style={{ backgroundColor: "rgb(212, 212, 236)" }}>
                                 <div className="d-inline-flex align-items-center rounded-3 mb-3 ps-2"
-                                style={{ width: "44px", height: "44px", backgroundColor: "rgb(219, 236, 222)", color: "rgb(18, 58, 25)"}}>
+                                    style={{ width: "44px", height: "44px", backgroundColor: "rgb(219, 236, 222)", color: "rgb(18, 58, 25)" }}>
                                     <i className="fa-solid fa-building"></i>
                                 </div>
                                 <h3>Modern Campus</h3>
@@ -40,9 +43,9 @@ function Why() {
 
                     <div className="carousel-item m-3">
                         <div className="d-flex justify-content-center">
-                            <div className="w-50 h-50 border border-primary shadow-lg rounded-5 p-4">
+                            <div className="w-50 h-50 border border-primary shadow-lg rounded-5 p-4" style={{ backgroundColor: "rgb(212, 212, 236)" }}>
                                 <div className="d-inline-flex align-items-center rounded-3 mb-3 ps-2"
-                                style={{ width: "44px", height: "44px", backgroundColor: "rgb(219, 236, 222)", color: "rgb(18, 58, 25)"}}>
+                                    style={{ width: "44px", height: "44px", backgroundColor: "rgb(219, 236, 222)", color: "rgb(18, 58, 25)" }}>
                                     <i className="fa-solid fa-shield-heart"></i>
                                 </div>
                                 <h3>Safe & Caring</h3>
@@ -53,9 +56,9 @@ function Why() {
 
                     <div className="carousel-item m-3">
                         <div className="d-flex justify-content-center">
-                            <div className="w-50 h-50 border border-primary shadow-lg rounded-5 p-4">
-                               <div className="d-inline-flex align-items-center rounded-3 mb-3 ps-2"
-                                style={{ width: "44px", height: "44px", backgroundColor: "rgb(219, 236, 222)", color: "rgb(18, 58, 25)"}}>
+                            <div className="w-50 h-50 border border-primary shadow-lg rounded-5 p-4" style={{ backgroundColor: "rgb(212, 212, 236)" }}>
+                                <div className="d-inline-flex align-items-center rounded-3 mb-3 ps-2"
+                                    style={{ width: "44px", height: "44px", backgroundColor: "rgb(219, 236, 222)", color: "rgb(18, 58, 25)" }}>
                                     <i className="fa-solid fa-square-poll-horizontal"></i>
                                 </div>
                                 <h3>Proven Results</h3>
@@ -66,9 +69,9 @@ function Why() {
 
                     <div className="carousel-item m-3">
                         <div className="d-flex justify-content-center">
-                            <div className="w-50 h-50 border border-primary shadow-lg rounded-5 p-4">
+                            <div className="w-50 h-50 border border-primary shadow-lg rounded-5 p-4" style={{ backgroundColor: "rgb(212, 212, 236)" }}>
                                 <div className="d-inline-flex align-items-center rounded-3 mb-3 ps-2"
-                                style={{ width: "44px", height: "44px", backgroundColor: "rgb(219, 236, 222)", color: "rgb(18, 58, 25)"}}>
+                                    style={{ width: "44px", height: "44px", backgroundColor: "rgb(219, 236, 222)", color: "rgb(18, 58, 25)" }}>
                                     <i class="fa-solid fa-music"></i>
                                 </div>
                                 <h3>Beyond Academics</h3>
@@ -79,9 +82,9 @@ function Why() {
 
                     <div className="carousel-item m-3">
                         <div className="d-flex justify-content-center">
-                            <div className="w-50 h-50 border border-primary shadow-lg rounded-5 p-4">
+                            <div className="w-50 h-50 border border-primary shadow-lg rounded-5 p-4" style={{ backgroundColor: "rgb(212, 212, 236)" }}>
                                 <div className="d-inline-flex align-items-center rounded-3 mb-3 ps-2"
-                                style={{ width: "44px", height: "44px", backgroundColor: "rgb(219, 236, 222)", color: "rgb(18, 58, 25)"}}>
+                                    style={{ width: "44px", height: "44px", backgroundColor: "rgb(219, 236, 222)", color: "rgb(18, 58, 25)" }}>
                                     <i class="fa-solid fa-handshake"></i>
                                 </div>
                                 <h3>Parent Partnership</h3>

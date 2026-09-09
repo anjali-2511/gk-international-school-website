@@ -1,9 +1,9 @@
 import AdmissionPage from "../Components/Admissions/AdmissionPage";
 import AdmissionProcess from "../Components/Admissions/AdmissionProcess";
-import Contact from "../Components/Admissions/Contact";
-import EnquiryForm from "../Components/Admissions/EnquiryForm";
+import ContactandEnquiryForm from "../Components/Admissions/Contact&EnquiryForm";
 import FeeEnquiryCTA from "../Components/Admissions/FeeEnquiryCTA";
 import Requirements from "../Components/Admissions/Requirements";
+import Footer from "../Components/Footer/Footer";
 
 function Admissions(){
     return(
@@ -12,8 +12,8 @@ function Admissions(){
         <AdmissionProcess/>
         <Requirements/>
         <FeeEnquiryCTA/>
-        <Contact/>
-        <EnquiryForm/>
+        <ContactandEnquiryForm/>
+        <Footer/>
         </>
     )
 };export default Admissions;

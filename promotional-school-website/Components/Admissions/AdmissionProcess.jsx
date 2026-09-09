@@ -13,7 +13,9 @@ function AdmissionProcess() {
                 <button className="btn btn-dark fw-bolder border-0 rounded-4 pe-4 mb-2 d-inline-flex align-items-center" style={{ color: "rgb(231, 159, 43)", backgroundColor: "rgb(243, 226, 198)" }}>
                     How to Apply
                 </button>
-                <h3 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }}>Admission Process</h3>
+                <h3 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }}>Admission Process
+                    <hr style={{ borderColor: "rgb(10, 10, 10)", opacity: 0.9, width: "250px", margin: "7px auto" }} />
+                </h3>
 
                 <div className="d-flex flex-wrap gap-4 justify-content-center pt-4">
                     {steps.map((item, i) => (

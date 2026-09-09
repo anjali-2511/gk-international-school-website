@@ -11,11 +11,13 @@ function Activities() {
     ];
     return (
         <>
-            <div className="text-center p-5" style={{ backgroundColor: "rgb(187, 172, 141)" }}>
+            <div className="text-center p-5" style={{ backgroundColor: "rgba(224, 225, 243, 0.73)" }}>
                 <button className="btn btn-dark fw-bolder border-0 rounded-4 pe-4 mb-2 d-inline-flex align-items-center" style={{ color: "rgb(58, 121, 88)", backgroundColor: "rgb(228, 240, 230)" }}>
                     Beyond the Syllabus
                 </button>
-                <h3 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }}>Activities</h3>
+                <h3 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }}>Activities
+                    <hr style={{ borderColor: "rgb(10, 10, 10)", opacity: 0.9, width: "130px", margin: "7px auto" }} />
+                </h3>
                 <p className="pt-2 mx-auto" style={{ color: "rgb(110, 110, 115)", maxWidth: "480px" }}>
                     Regular events and clubs that build confidence, teamwork, and lifelong interests.
                 </p>
