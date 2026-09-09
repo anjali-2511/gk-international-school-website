@@ -1,6 +1,6 @@
 // import logo from "../public/logo.png";
 import './header.css';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Header() {
     const logo = "/logo.png";
@@ -34,7 +34,6 @@ function Header() {
 
                     <div className="collapse navbar-collapse" id="navbarNav">
 
-                        {/* Show title/subtitle inside collapsed menu on small screens */}
                         <div className="header-title d-block d-md-none text-center py-2">
                             <h3 style={{ color: "rgb(149, 151, 224)" }} className="header-title-text mb-0">
                                 GoglyaKrish International School
@@ -47,38 +46,38 @@ function Header() {
                         <ul className="navbar-nav align-items-lg-center mx-lg-auto text-center">
 
                             <li className="nav-item ms-lg-4 me-lg-4">
-                                <Link
-                                    className="nav-link"
+                                <NavLink
+                                    className="nav-link" id= "home"
                                     style={{ color: "rgb(239, 240, 250)" }}
-                                    to="/"
+                                    to="/"  target="_top"
                                     end
                                 >
                                     Home
-                                </Link>
+                                </NavLink>
                             </li>
 
                             <li className="nav-item ms-lg-4 me-lg-4">
-                                <Link className="nav-link" style={{ color: "rgb(239, 240, 250)" }} to="/about">
+                                <NavLink className="nav-link" style={{ color: "rgb(239, 240, 250)" }} to="/about" target="_top">
                                     About
-                                </Link>
+                                </NavLink>
                             </li>
 
                             <li className="nav-item ms-lg-4 me-lg-4">
-                                <Link className="nav-link" style={{ color: "rgb(239, 240, 250)" }} to="/academics">
+                                <NavLink className="nav-link" style={{ color: "rgb(239, 240, 250)" }} to="/academics" target="_top">
                                     Academics
-                                </Link>
+                                </NavLink>
                             </li>
 
                             <li className="nav-item ms-lg-4 me-lg-4">
-                                <Link className="nav-link" style={{ color: "rgb(239, 240, 250)" }} to="/facilities">
+                                <NavLink className="nav-link" style={{ color: "rgb(239, 240, 250)" }} to="/facilities" target="_top">
                                     Facilities
-                                </Link>
+                                </NavLink>
                             </li>
 
                             <li className="nav-item ms-lg-4 me-lg-4">
-                                <Link className="nav-link" style={{ color: "rgb(239, 240, 250)" }} to="/admission">
+                                <NavLink className="nav-link" style={{ color: "rgb(239, 240, 250)" }} to="/admission" target="_top">
                                     Admission
-                                </Link>
+                                </NavLink>
                             </li>
                         </ul>
 

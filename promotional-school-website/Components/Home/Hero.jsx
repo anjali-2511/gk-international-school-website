@@ -1,13 +1,13 @@
 function Hero() {
     return (
-        <div className="w-100 overflow-x-hidden" style={{ backgroundColor: "rgba(205, 206, 228, 0.94)" }}>
+        <div className="w-100 overflow-x-hidden" style={{ backgroundColor: "rgba(205, 206, 228, 0.94)" }} >
             <div className="container py-5">
                 <div className="row align-items-center g-4">
 
-                    
                     <div className="col-12 col-lg-7">
                         <div className="ms-lg-5 text-center text-lg-start">
                             <button
+                                data-aos="fade-down"
                                 className="btn fw-bold border-0 rounded-5 px-4 py-2 d-inline-flex align-items-center gap-2 text-nowrap"
                                 style={{ backgroundColor: "rgba(171, 224, 181, 0.74)", color: "rgba(9, 88, 8, 0.91)" }}
                             >
@@ -15,27 +15,47 @@ function Hero() {
                                 Admissions Open for 2026-27
                             </button>
 
-                            <h3 className="fw-bold pt-3 fs-2 fs-md-1">
+                            <h3
+                                data-aos="fade-up"
+                                data-aos-delay="150"
+                                className="fw-bold pt-3 fs-2 fs-md-1"
+                            >
                                 Empowering Young Minds for a Brighter Future
                             </h3>
 
                             <ul className="list-unstyled mt-3 d-inline-block text-start">
-                                <li className="d-flex align-items-center gap-2 mb-2">
+                                <li
+                                    data-aos="fade-right"
+                                    data-aos-delay="250"
+                                    className="d-flex align-items-center gap-2 mb-2"
+                                >
                                     <i className="fa-solid fa-circle-check" style={{ color: "rgb(227, 162, 60)" }}></i>
                                     Quality Education
                                 </li>
-                                <li className="d-flex align-items-center gap-2 mb-2">
+                                <li
+                                    data-aos="fade-right"
+                                    data-aos-delay="350"
+                                    className="d-flex align-items-center gap-2 mb-2"
+                                >
                                     <i className="fa-solid fa-circle-check" style={{ color: "rgb(227, 162, 60)" }}></i>
                                     Modern Learning
                                 </li>
-                                <li className="d-flex align-items-center gap-2 mb-2">
+                                <li
+                                    data-aos="fade-right"
+                                    data-aos-delay="450"
+                                    className="d-flex align-items-center gap-2 mb-2"
+                                >
                                     <i className="fa-solid fa-circle-check" style={{ color: "rgb(227, 162, 60)" }}></i>
                                     Strong Values
                                 </li>
                             </ul>
                         </div>
 
-                        <div className="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3 gap-md-4 ms-lg-5 mt-4">
+                        <div
+                            data-aos="fade-up"
+                            data-aos-delay="450"
+                            className="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3 gap-md-4 ms-lg-5 mt-4"
+                        >
                             <button
                                 className="btn btn-dark border-dark fw-bold rounded-5 px-4 py-3 d-inline-flex align-items-center text-nowrap"
                                 style={{ backgroundColor: "rgb(227, 162, 60)", color: "rgb(25, 31, 49)" }}
@@ -55,6 +75,8 @@ function Hero() {
                    
                     <div className="col-12 col-lg-5">
                         <div
+                            data-aos="fade-left"
+                            data-aos-delay="200"
                             className="card border border-dark shadow-lg rounded-3 w-100 mw-100 p-3 mx-auto"
                             style={{ backgroundColor: "rgb(10, 34, 102)" }}
                         >
