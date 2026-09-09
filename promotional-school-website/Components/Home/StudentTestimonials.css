@@ -1,9 +1,0 @@
-.gradient-icon {
-  font-size: 2rem;  
-  background: linear-gradient(45deg, rgb(13, 40, 122),rgb(241, 163, 36));
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: transparent;  
-}
- 
