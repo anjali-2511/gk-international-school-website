@@ -9,4 +9,4 @@ reveal animations, and a professional navy-and-gold design theme.
 **Tech stack:** React JS, React Router, CSS (component-based), reusable UI components 
 (Header, Footer, Hero, FeatureCard, FacilityCard, TestimonialCard, Button).
 
-**Output Link:** goglyakrishschool.netlify.app
+**Output Link:**  https://goglyakrishschool.netlify.app/
