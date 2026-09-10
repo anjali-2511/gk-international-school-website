@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ScrollToTop from "../Components/ScrollToTop";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
 
 
       <BrowserRouter>
+        <ScrollToTop />
         <Header />
         <br />
         <br />

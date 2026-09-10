@@ -1,6 +1,6 @@
 // import logo from "../public/logo.png";
 import './header.css';
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 function Header() {
     const logo = "/logo.png";
@@ -9,9 +9,9 @@ function Header() {
             <nav className="navbar fixed-top navbar-expand-lg navbar-dark w-100 p-2" style={{ backgroundColor: "rgb(69, 76, 99)" }}>
                 <div className="container-fluid align-items-center">
 
-                    <a className="navbar-brand fw-bold ms-lg-3 d-flex align-items-center" href="#">
+                    <Link className="navbar-brand fw-bold ms-lg-3 d-flex align-items-center">
                         <img src={logo} width="50" height="50" alt="" className="header-logo" />
-                    </a>
+                    </Link>
 
                     <div className="header-title d-none d-md-block">
                         <h3 style={{ color: "rgb(149, 151, 224)" }} className="header-title-text mb-0">
@@ -47,9 +47,9 @@ function Header() {
 
                             <li className="nav-item ms-lg-4 me-lg-4">
                                 <NavLink
-                                    className="nav-link" id= "home"
+                                    className="nav-link" 
                                     style={{ color: "rgb(239, 240, 250)" }}
-                                    to="/"  target="_top"
+                                    to="/"  
                                     end
                                 >
                                     Home
@@ -57,25 +57,25 @@ function Header() {
                             </li>
 
                             <li className="nav-item ms-lg-4 me-lg-4">
-                                <NavLink className="nav-link" style={{ color: "rgb(239, 240, 250)" }} to="/about" target="_top">
+                                <NavLink className="nav-link" style={{ color: "rgb(239, 240, 250)" }} to="/about"  >
                                     About
                                 </NavLink>
                             </li>
 
                             <li className="nav-item ms-lg-4 me-lg-4">
-                                <NavLink className="nav-link" style={{ color: "rgb(239, 240, 250)" }} to="/academics" target="_top">
+                                <NavLink className="nav-link" style={{ color: "rgb(239, 240, 250)" }} to="/academics"  >
                                     Academics
                                 </NavLink>
                             </li>
 
                             <li className="nav-item ms-lg-4 me-lg-4">
-                                <NavLink className="nav-link" style={{ color: "rgb(239, 240, 250)" }} to="/facilities" target="_top">
+                                <NavLink className="nav-link" style={{ color: "rgb(239, 240, 250)" }} to="/facilities"  >
                                     Facilities
                                 </NavLink>
                             </li>
 
                             <li className="nav-item ms-lg-4 me-lg-4">
-                                <NavLink className="nav-link" style={{ color: "rgb(239, 240, 250)" }} to="/admission" target="_top">
+                                <NavLink className="nav-link" style={{ color: "rgb(239, 240, 250)" }} to="/admission"  >
                                     Admission
                                 </NavLink>
                             </li>
