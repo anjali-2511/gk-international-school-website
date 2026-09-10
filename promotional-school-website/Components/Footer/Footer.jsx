@@ -37,7 +37,9 @@ function Footer() {
                     <div>
                         <h6 className="fw-bold" style={{ color: "rgb(231, 159, 43)", letterSpacing: "1px" }}>QUICK LINKS</h6>
                         <ul className="list-unstyled pt-2">
-                            <li className="pb-1"><a href="#" style={{ color: "rgb(192, 191, 188)", textDecoration: "none" }}>Home</a></li>
+                            <li className="pb-1">
+                                <a href="#" style={{ color: "rgb(192, 191, 188)", textDecoration: "none" }}>Home</a>
+                                </li>
 
                             <li className="pb-1"><a href="#" style={{ color: "rgb(192, 191, 188)", textDecoration: "none" }}>About Us</a></li>
 
