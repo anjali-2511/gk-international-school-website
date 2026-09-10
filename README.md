@@ -1,4 +1,4 @@
-# Goglya Krish International School — Promotional Website
+# Goglya Krish International School Promotional Website
 
 ### A fully responsive, multi-page promotional website for a fictional school, 
 built as a React JS practical task. Features a reusable Header/Footer, React Router 
