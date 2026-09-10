@@ -84,8 +84,7 @@ function Hero() {
                                 className="btn btn-dark border-dark fw-bold rounded-5 px-3 py-2 mb-4 ms-auto d-inline-flex align-items-center text-nowrap flex-shrink-0"
                                 style={{ backgroundColor: "rgb(227, 162, 60)", color: "rgb(25, 31, 49)", alignSelf: "flex-end" }}
                             >
-                                <i className="fa-solid fa-crown me-2" style={{ color: "rgb(25, 31, 49)" }}></i>
-                                95% + Result
+                                <i class="fa-solid fa-trophy"></i> 95% + Result
                             </button>
 
                             <div

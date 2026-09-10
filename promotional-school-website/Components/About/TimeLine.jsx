@@ -6,30 +6,40 @@ function TimeLine() {
         { year: "2019", title: "Streak of 100% Board Results Begins", text: "Consistent top-tier academic outcomes year after year." },
         { year: "2024", title: "Recognised Among Top 10 CBSE Schools", text: "City-wide ranking recognition for academics and infrastructure." },
     ];
-    
+
     return (
         <>
-            <div className="text-center p-5" style={{ backgroundColor: "rgb(255, 255, 255)" }}>
-                <button className="btn btn-dark fw-bolder border-0 rounded-4 pe-4 mb-2 d-inline-flex align-items-center" style={{ color: "rgb(58, 121, 88)", backgroundColor: "rgb(228, 240, 230)" }}>
+            <div className="text-center p-4 p-md-5" style={{ backgroundColor: "rgb(255, 255, 255)" }}>
+                <button
+                    className="btn fw-bolder border-0 rounded-4 px-4 py-2 mb-2 d-inline-flex align-items-center"
+                    style={{ color: "rgb(58, 121, 88)", backgroundColor: "rgb(228, 240, 230)" }}
+                    data-aos="fade-down"
+                >
                     Our Journey
                 </button>
-                <h3 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }}>School Timeline
+
+                <h3 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }} data-aos="fade-up" data-aos-delay="100">
+                    School Timeline
                     <hr style={{ borderColor: "rgb(10, 10, 10)", opacity: 0.9, width: "220px", margin: "7px auto" }} />
                 </h3>
 
                 <div className="position-relative pt-5" style={{ maxWidth: "800px", margin: "0 auto" }}>
-                    
+
                     <div
                         className="d-none d-md-block position-absolute"
                         style={{ top: 0, bottom: 0, left: "50%", width: "2px", backgroundColor: "rgb(231, 159, 43)", opacity: 0.3 }}
                     ></div>
 
                     {years.map((item, i) => (
-                        <div key={i} className="d-flex align-items-center pb-5 position-relative">
-                        
-                            <div className="w-50 pe-4 text-md-end text-start">
+                        <div key={i} className="row align-items-center pb-4 pb-md-5 position-relative g-0">
+
+                            <div className="col-12 col-md-6 pe-md-4 text-center text-md-end">
                                 {i % 2 === 0 ? (
-                                    <div className="d-inline-block text-start rounded-4 p-3 shadow-sm" style={{ backgroundColor: "rgb(223, 223, 238)", maxWidth: "320px" }}>
+                                    <div
+                                        className="d-inline-block text-start rounded-4 p-3 shadow-sm mb-3 mb-md-0"
+                                        style={{ backgroundColor: "rgb(223, 223, 238)", maxWidth: "320px" }}
+                                        data-aos="fade-right"
+                                    >
                                         <h4 className="fw-bold mb-1" style={{ color: "rgb(231, 159, 43)" }}>{item.year}</h4>
                                         <h6 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }}>{item.title}</h6>
                                         <p className="mb-0" style={{ color: "rgb(110, 110, 115)", fontSize: "0.9rem" }}>{item.text}</p>
@@ -37,7 +47,6 @@ function TimeLine() {
                                 ) : null}
                             </div>
 
-                           
                             <div
                                 className="d-none d-md-flex align-items-center justify-content-center rounded-circle position-absolute"
                                 style={{
@@ -51,10 +60,13 @@ function TimeLine() {
                                 }}
                             ></div>
 
-                            
-                            <div className="w-50 ps-4 text-start">
+                            <div className="col-12 col-md-6 ps-md-4 text-center text-md-start">
                                 {i % 2 !== 0 ? (
-                                    <div className="d-inline-block text-start rounded-4 p-3 shadow-sm" style={{ backgroundColor: "rgb(223, 223, 238)", maxWidth: "320px" }}>
+                                    <div
+                                        className="d-inline-block text-start rounded-4 p-3 shadow-sm"
+                                        style={{ backgroundColor: "rgb(223, 223, 238)", maxWidth: "320px" }}
+                                        data-aos="fade-left"
+                                    >
                                         <h4 className="fw-bold mb-1" style={{ color: "rgb(231, 159, 43)" }}>{item.year}</h4>
                                         <h6 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }}>{item.title}</h6>
                                         <p className="mb-0" style={{ color: "rgb(110, 110, 115)", fontSize: "0.9rem" }}>{item.text}</p>
@@ -65,7 +77,6 @@ function TimeLine() {
                     ))}
                 </div>
             </div>
-
         </>
     )
 };

@@ -8,29 +8,42 @@ function TeachingMethodology() {
 
     return (
         <>
-            <div className="text-center p-5" style={{ backgroundColor: "rgb(208, 210, 245)" }}>
-                <button className="btn btn-dark fw-bolder border-0 rounded-4 pe-4 mb-2 d-inline-flex align-items-center" style={{ color: "rgb(58, 121, 88)", backgroundColor: "rgb(228, 240, 230)" }}>
+            <div className="text-center p-4 p-md-5" style={{ backgroundColor: "rgb(208, 210, 245)" }}>
+                <button
+                    className="btn fw-bolder border-0 rounded-4 px-4 py-2 mb-2 d-inline-flex align-items-center"
+                    style={{ color: "rgb(58, 121, 88)", backgroundColor: "rgb(228, 240, 230)" }}
+                    data-aos="fade-down"
+                >
                     How We Teach
                 </button>
-                <h3 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }}>Teaching Methodology
-                    <hr style={{ borderColor: "rgb(10, 10, 10)", opacity: 0.9, width: "300px", margin: "7px auto" }} />
+
+                <h3 className="fw-bold" style={{ color: "rgb(20, 30, 60)" }} data-aos="fade-up" data-aos-delay="100">
+                    Teaching Methodology
+                    <hr style={{ borderColor: "rgb(10, 10, 10)", opacity: 0.9, width: "300px", maxWidth: "80%", margin: "7px auto" }} />
                 </h3>
 
-                <div id="teachingCarousel" className="carousel slide pt-4 " data-bs-ride="carousel" data-bs-interval="3000">
-                    <div className="carousel-inner d-inline-flex align-items-center">
+                <div
+                    id="teachingCarousel"
+                    className="carousel slide pt-4 px-4 px-md-5"
+                    data-bs-ride="carousel"
+                    data-bs-interval="3000"
+                    data-aos="zoom-in"
+                    data-aos-delay="200"
+                >
+                    <div className="carousel-inner">
                         {items.map((item, i) => (
                             <div key={i} className={`carousel-item ${i === 0 ? "active" : ""}`}>
                                 <div className="d-flex justify-content-center">
                                     <div
-                                        className="text-start rounded-4 p-4 shadow-sm bg-white"
-                                        style={{ width: "450px", minHeight: "180px" }}
+                                        className="text-start rounded-4 p-4 shadow-sm bg-white w-100"
+                                        style={{ maxWidth: "450px", minHeight: "180px" }}
                                     >
                                         <div
                                             className="d-flex align-items-center justify-content-center rounded-3 mb-3 mx-auto"
                                             style={{ width: "70px", height: "44px", backgroundColor: "rgb(228, 240, 230)" }}
                                         >
                                             <i className={item.icon} style={{ color: "rgb(58, 121, 88)" }}></i>
-                                        </div >
+                                        </div>
                                         <h5 className="fw-bold text-center" style={{ color: "rgb(20, 30, 60)" }}>{item.title}</h5>
                                         <p className="mb-0 text-center" style={{ color: "rgb(110, 110, 115)", fontSize: "0.9rem" }}>{item.text}</p>
                                     </div>
@@ -40,16 +53,15 @@ function TeachingMethodology() {
                     </div>
 
                     <button className="carousel-control-prev" type="button" data-bs-target="#teachingCarousel" data-bs-slide="prev">
-                        <span className="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                        <span className="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
                         <span className="visually-hidden">Previous</span>
                     </button>
                     <button className="carousel-control-next" type="button" data-bs-target="#teachingCarousel" data-bs-slide="next">
-                        <span className="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                        <span className="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
                         <span className="visually-hidden">Next</span>
                     </button>
                 </div>
             </div>
-
         </>
     )
 };
